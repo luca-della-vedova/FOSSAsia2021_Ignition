@@ -1,4 +1,4 @@
-# Highly Customizable Robot Simulation @ All Things Open 2020
+# Next gen robotics simulation with Ignition Gazebo @ FOSSAsia Summit 2021
 
 Presentation about a simulator, from inside the simulator.
 
@@ -13,14 +13,14 @@ Install dependencies as instructed on their pages
 ## Run presentation
 
 ```
-git clone https://github.com/chapulina/ATO2020_Ignition
-cd ATO2020_Ignition
-simslides_ignition -r ATO2020.sdf
+git clone https://github.com/luca-della-vedova/FOSSAsia2021_Ignition
+cd FOSSAsia2021_Ignition
+simslides_ignition -r FOSSAsia.sdf
 ```
 
 To run with TPE:
 
 ```
 
-simslides_ignition -r ATO2020.sdf --physics-engine ignition-physics-tpe-plugin
+simslides_ignition -r FOSSAsia.sdf --physics-engine ignition-physics-tpe-plugin
 ```
