@@ -169,6 +169,11 @@
 
     </gui>
 
+    <physics name="5ms" type="ode">
+      <max_step_size>0.005</max_step_size>
+      <real_time_factor>1.0</real_time_factor>
+    </physics>
+
     <plugin
       filename="ignition-gazebo-physics-system"
       name="ignition::gazebo::systems::Physics">
@@ -225,6 +230,13 @@
       <pose>-1.4 9 0 0 0 -0.73</pose>
       <uri>
         https://fuel.ignitionrobotics.org/1.0/OpenRobotics/models/Fire Extinguisher
+      </uri>
+    </include>
+
+    <include>
+      <pose>5 0 0 0 0 1.57</pose>
+      <uri>
+        https://fuel.ignitionrobotics.org/1.0/OpenRobotics/models/MaleVisitorPhone
       </uri>
     </include>
 
